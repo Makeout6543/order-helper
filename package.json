@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://zengwenhua.github.io/order-helper",
+  "homepage": "https://makeout6543.github.io/order-helper",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
