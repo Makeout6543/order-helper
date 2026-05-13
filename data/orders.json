@@ -1,0 +1,46 @@
+[
+  {
+    "id": "mowv40sm7zkpe",
+    "date": "2026-05-08",
+    "productName": "6kg李锦记蚝油",
+    "quantity": 1,
+    "unit": "件",
+    "unitPrice": 65,
+    "amount": 65,
+    "verified": true,
+    "priceChange": null,
+    "priceChangeNote": "首次采购，无历史对比",
+    "supplier": "景汉食品批发部",
+    "note": "",
+    "imageFile": "1778241441548_s0uv20.JPG",
+    "createdAt": "2026-05-08T11:59:19.558Z",
+    "verificationDetail": {
+      "calculated": 65,
+      "stated": 65,
+      "discrepancy": 0,
+      "ok": true
+    }
+  },
+  {
+    "id": "mowv80qs79ds9",
+    "date": "2026-05-08",
+    "productName": "李锦记豆瓣酱",
+    "quantity": 8,
+    "unit": "件",
+    "unitPrice": 215,
+    "amount": 1720,
+    "verified": true,
+    "priceChange": null,
+    "priceChangeNote": "首次采购，无历史对比",
+    "supplier": "景汉食品批发部",
+    "note": "",
+    "imageFile": "1778241708146_kmum97.JPG",
+    "createdAt": "2026-05-08T12:02:26.116Z",
+    "verificationDetail": {
+      "calculated": 1720,
+      "stated": 1720,
+      "discrepancy": 0,
+      "ok": true
+    }
+  }
+]
