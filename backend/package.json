@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
+    "build": "echo 'no build needed (tsx runs TS directly)'",
     "start": "tsx src/index.ts"
   },
   "dependencies": {
