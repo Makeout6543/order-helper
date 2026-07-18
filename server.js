@@ -299,7 +299,8 @@ async function handleAPI(req, res, url) {
       }
 
       const APP_ID = '100003';
-      const APP_KEY = '38d2391985e2369a5fb8227d8e6cd5e5';
+      const APP_KEY = process.env.ORDER_HELPER_LEGACY_APP_KEY;
+      if (!APP_KEY) return jsonResponse(res, { error: '旧识别服务未配置凭证' }, 503);
 
       // Step 1: 获取 token（用 curl，绕过 Python 3.14 兼容问题）
       let token;
