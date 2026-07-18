@@ -4,3 +4,7 @@ dist/
 uploads/
 .DS_Store
 backend/node_modules/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo

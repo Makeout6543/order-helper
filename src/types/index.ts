@@ -16,9 +16,12 @@ export interface Material {
 
 export interface Order {
   id?: number;
-  supplierId: number;
+  supplierId: number | null;
   supplierName: string;
   items: OrderItem[];
+  userName?: string;
+  note?: string;
+  requestId?: string;
   createdAt: string;
 }
 
@@ -27,4 +30,5 @@ export interface OrderItem {
   spec: string;
   quantity: number;
   unit: string;
+  price?: number;
 }
